@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(189, 140, 187);
+}
+
+
+
+.roomContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.roomCard{
+    display: flex;
+    border: 3px solid;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.bookContainer{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: rgb(57, 57, 134);
+    width:300px;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+.roomCon{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    background-color: bisque;
+    justify-content: space-around;
+    margin: 10px;
+
+    
+    
+}
+ 
+button{
+    background-color: chocolate;
+    color: antiquewhite;
+    width: 100px;
+    font-size: medium;
+    transition: all ease 200ms;
+}
+button:hover{
+    background-color:blueviolet ;
+    transition: all ease 200ms;
+    cursor: pointer;
+    
+}
+h4{
+    color: darkred;
+}
